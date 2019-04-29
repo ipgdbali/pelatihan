@@ -1,0 +1,62 @@
+body
+{
+	background-image : url(https://images7.alphacoders.com/760/760447.jpg);
+	background-repeat : no-repeat;
+	background-size : cover;
+	
+	color: #efefef;
+	font-size:12pt;
+}
+
+hr
+{
+	background-color : #efefef;
+}
+main
+{
+	margin-top:8px;
+}
+
+.navbar-nav
+{
+	margin-right:40px;
+}
+
+.nav-item
+{
+	font-weight:bold;
+	color:#efefef;
+	margin:2px 10px;
+}
+
+.nav-item:hover
+{
+	background-color: #efefef;
+}
+
+.modal-dialog
+{
+	color : #000000;
+}
+
+.cast-line
+{
+	margin-top : 4px;
+	font-size : 12px;
+}
+
+.cast-act::after
+{
+	content : ' as ';
+	color : #ffffff;
+}
+
+.cast-act
+{
+	color : #afeeef;
+}
+.cast-char
+{
+	color : #afeeef;
+	font-weight:bold;
+}
