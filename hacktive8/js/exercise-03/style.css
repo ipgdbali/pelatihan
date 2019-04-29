@@ -1,0 +1,75 @@
+body
+{
+	background-image : url(https://www.ps4wallpapers.com/wp-content/uploads/2017/03/PS4Wallpapers.com_starwars-1056x594.jpg);
+	background-repeat : no-repeat;
+	background-size : cover;
+}
+#container
+{
+	width  : 90%;
+	margin : 30px auto;
+}
+
+#search
+{
+	margin: 8px 0px;
+}
+
+#table
+{
+	width : 100%;
+	border-collapse : collapse;
+	background-color : rgba(255,255,255,0.7);
+}
+
+th
+{
+	border : 1px solid rgba(80,80,80,0.6);
+	background-color : rgba(100,100,100,0.6);
+	height : 30px;
+}
+
+td
+{
+	border : 1px solid rgba(100,100,100,0.6);
+	height : 30px;
+}
+
+tbody > tr:hover
+{
+	background-color : rgba(255,255,0,0.5);
+}
+
+thead > tr:nth-child(1) > th:nth-child(1)
+{
+	width: 200px;
+}
+
+tbody > tr > td
+{
+	padding : 4px 6px;
+}
+
+tbody > tr > td:nth-child(2)
+{
+	text-align: right;
+	width : 90px;
+}
+
+tbody > tr > td:nth-child(3)
+{
+	text-align: right;
+	width : 90px;
+}
+
+tbody > tr > td:nth-child(4)
+{
+	text-align: right;
+	width : 100px;
+}
+
+tbody > tr > td:nth-child(7)
+{
+	text-align: right;
+	width : 100px;
+}
